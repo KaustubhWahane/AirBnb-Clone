@@ -31,12 +31,32 @@ h3{
   text-decoration : underline;
   background-color: rgb(202, 194, 194);
 }
-.middleNavbar{
-  width: 27em;
-  margin-left: 34em;
+.middleNavbar {
+  width: 21em;
+  margin-left: 35em;
   height: 48px;
   border-radius: 20px;
+  background-color: rgba(229, 225, 225, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.middleNavbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px; 
+}
+
+ li {
+  cursor: pointer;
+}
+
+ hr {
+  border: 1px solid black;
+  margin: 0; 
+}
+
 li{
   list-style: none;
 }
@@ -44,7 +64,8 @@ ul{
   display: flex;
 }
 hr{
-  margin-top: -1em;
-  height: 2.6em;
+  margin-top: -0.5em;
+  height: 2em;
   color: black;
+  opacity: 0.3;
 }
