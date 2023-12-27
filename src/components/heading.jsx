@@ -1,5 +1,6 @@
 import React from "react";
 import Photo from '../Images/ReactLogo.png';
+import searchLogo from '../Images/searchLogo.jpg';
 
 export default function Heading(){
     return(
@@ -18,6 +19,7 @@ export default function Heading(){
                     <li>Anyweek</li>
                     <hr />
                     <li>AddGuests</li>
+                    <li><img src={searchLogo} className="navLogo" alt="Error 409"/></li>
                  </ul>
                 </div>
             </nav>
