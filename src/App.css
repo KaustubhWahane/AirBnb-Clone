@@ -15,8 +15,9 @@
   margin: 0 3em
 }
 .cardImage{
-  width: 100px;
-  height: 100px
+  width: 15em;
+  height:15em ;
+  border: 1px solid red;
 }
 h3{
   padding: 0 0.3em;
@@ -27,7 +28,7 @@ h3{
 }
 .topText {
   text-align: center;
-  padding: 0.4em 0.4em;
+  padding:  0.4em 0;
   text-decoration : underline;
   background-color: rgb(202, 194, 194);
 }

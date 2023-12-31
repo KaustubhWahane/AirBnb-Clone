@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
 import Heading from './components/heading';
-import PersonalCard from './components/PersonalCard';
+import PersonalCard from './components/CardApi'
 import Categories from './components/Categories';
-
 
 function App() {
   return (
     <div className="App">
-
       <Heading/>
-      <PersonalCard/>
       <Categories/>
+      <PersonalCard/>
     </div>
   );
 }
